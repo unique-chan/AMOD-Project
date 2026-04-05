@@ -520,8 +520,145 @@ Existing benchmarks for aerial object detection provide limited support for stud
 </section>
 
 
+<section class="section license-section has-background-light">
+  <div class="container is-max-desktop">
+    <div class="has-text-centered mb-6">
+      <h2 class="title is-2 mb-3">License</h2>
+      <div class="section-divider"></div>
+      <p class="subtitle is-6 has-text-grey mt-4">
+        Usage terms and external dependencies for the AMOD dataset
+      </p>
+    </div>
+
+    <div class="license-card">
+      <div class="content is-medium">
+        <p>
+          The <strong>AMOD dataset</strong> was generated using
+          <strong>Arma 3</strong>, © Bohemia Interactive.
+        </p>
+
+        <p>
+          The dataset is distributed under the
+          <strong>Arma Public License (APL)</strong>, and users are required
+          to comply with all terms of the APL as well as Bohemia
+          Interactive’s <strong>Arma 3 End User License Agreement (EULA)</strong>.
+        </p>
+
+        <p class="has-text-danger-dark">
+          These terms include attribution obligations and strict restrictions
+          against <strong>commercial use</strong>. This dataset is provided
+          for <strong>research purposes only</strong>.
+        </p>
+      </div>
+    </div>
+
+    <div class="dependency-card mt-5">
+      <h3 class="title is-5 mb-4">Dependencies</h3>
+
+      <div class="content">
+        <p>
+          We rely on <strong>1 officially supported DLC</strong> and
+          <strong>11 community-created mods</strong> available for Arma 3.
+        </p>
+
+        <div class="dependency-group">
+          <span class="tag is-link is-light dependency-tag">DLC</span>
+          <ul>
+            <li>Global Mobilization <span class="has-text-grey">(Vertexmacht)</span></li>
+          </ul>
+        </div>
+
+        <div class="dependency-group mt-4">
+          <span class="tag is-info is-light dependency-tag">MODs</span>
+          <ul class="mod-list">
+            <li>3CB Factions <span class="has-text-grey">(3cb.mods)</span></li>
+            <li>Automatic Warning Suppressor <span class="has-text-grey">(skirmish_uk)</span></li>
+            <li>Cold War Rearmed III <span class="has-text-grey">(W0lle)</span></li>
+            <li>CBA_A3 <span class="has-text-grey">(CBA Team)</span></li>
+            <li>CUP Vehicles <span class="has-text-grey">(CUP Team)</span></li>
+            <li>POOK ARTY Pack</li>
+            <li>POOK SAM Pack <span class="has-text-grey">(hcpookie)</span></li>
+            <li>RHSAFRF</li>
+            <li>RHSGREF</li>
+            <li>RHSSAF</li>
+            <li>RHSUSAF <span class="has-text-grey">(Red Hammer Studios)</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .license-section {
+    padding: 5rem 1.5rem;
+  }
+
+  .section-divider {
+    width: 72px;
+    height: 4px;
+    margin: 0 auto;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #8b5cf6, #ec4899);
+  }
+
+  .license-card,
+  .dependency-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    padding: 2rem 2.2rem;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+  }
+
+  .license-card .content p,
+  .dependency-card .content p,
+  .dependency-card li {
+    color: #374151;
+    line-height: 1.8;
+  }
+
+  .dependency-tag {
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+
+  .dependency-group ul {
+    margin-top: 0.25rem;
+  }
+
+  .mod-list {
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .mod-list li {
+    break-inside: avoid;
+    margin-bottom: 0.45rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    .license-card,
+    .dependency-card {
+      padding: 1.4rem 1.2rem;
+      border-radius: 14px;
+    }
+
+    .mod-list {
+      columns: 1;
+    }
+
+    .license-section {
+      padding: 3rem 1rem;
+    }
+  }
+</style>
+
+
+
 <!--BibTex citation -->
-  <section class="section has-background-light" id="BibTeX">
+  <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <div class="bibtex-header">
         <h2 class="title">BibTeX</h2>
